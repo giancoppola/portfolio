@@ -353,6 +353,16 @@ blockquote {
     transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
 
+/*Background without Ink Transition*/
+
+.newmenubackground {
+    background: #060C0E no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /* Full Menu */
 
 .full-menu .modal-close {

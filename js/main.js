@@ -103,31 +103,31 @@ Preloader
 
 
    // FADE OUT EFFECT WHEN CLICK A LINK
-    $(document).on("click", "a:not(.lightbox)", function () {
-        var newUrl = $(this).attr("href");
-        if (!newUrl || newUrl[0] === "#") {
-            location.hash = newUrl;
-            return;
-        }
-        $("html").fadeOut(function () {
-            location = newUrl;
-        });
-        return false;
-    });
+    // $(document).on("click", "a:not(.lightbox)", function () {
+    //     var newUrl = $(this).attr("href");
+    //     if (!newUrl || newUrl[0] === "#") {
+    //         location.hash = newUrl;
+    //         return;
+    //     }
+    //     $("html").fadeOut(function () {
+    //         location = newUrl;
+    //     });
+    //     return false;
+    // });
     
 
-    var paget = $(".page-title .title").text();
+    // var paget = $(".page-title .title").text();
 
-    $( ".page-title").append("<span></span>");
-    $( ".page-title span").append(paget);
+    // $( ".page-title").append("<span></span>");
+    // $( ".page-title span").append(paget);
 
 
     
-    //posts page hover 
-    $('.blog-post .blog-link').hover(function(){
-        $(this).parent('.content-outter').parent('.blog-post').toggleClass('mousef');
-        $(this).parent('.blog-post').toggleClass('mousef');
-    });
+    // //posts page hover 
+    // $('.blog-post .blog-link').hover(function(){
+    //     $(this).parent('.content-outter').parent('.blog-post').toggleClass('mousef');
+    //     $(this).parent('.blog-post').toggleClass('mousef');
+    // });
 
     
 
