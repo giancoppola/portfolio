@@ -1483,7 +1483,7 @@ footer p {
     text-decoration: underline;
 }
 
-.footerlinkhover a:hover {
+/*.footerlinkhover a:hover {
     color: #4C797F;
     transition: color ease 0.3s;
     -webkit-transition: color ease 0.3s;
@@ -1492,6 +1492,41 @@ footer p {
     transition: text ease 0.3s;
     -webkit-transition: text ease 0.3s;
     -moz-transition: text ease 0.3s;
+}*/
+
+.strike {
+    position: relative;
+    display: inline-block;
+}
+
+.strike::before {
+    content: '';
+    opacity: 0%;
+    border-bottom: 0px solid #C04759;
+    width: 0%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin: 0;
+    transition: width .4s ease-out;
+}
+
+.strike:hover::before {
+    content: '';
+    text-decoration: none;
+    border-bottom: 3px solid #C04759;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 45%;
+    opacity: 100%;
+    margin: 0;
+    transition: width .4s ease-out;
+    -webkit-transition: width .4s ease-out;
+       -moz-transition: width .4s ease-out;
+        -ms-transition: width .4s ease-out;
+         -o-transition: width .4s ease-out;
+            transition: width .4s ease-out;
 }
 
 /*------------------------ 6 Responsive ------------------------*/
