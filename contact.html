@@ -102,26 +102,28 @@
     </div>
     <!-- Contact -->
     <div class="col-lg-6 offset-lg-3">
-        <p style="margin-top: 60px;">Interested in my portfolio and want to get in touch? Seen my previous projects and feel I would be a good fit for your upcoming work? Feeling a little low and just fancy a chat?</p>
+        <p class="top_60" ">Interested in my portfolio and want to get in touch? Seen my previous projects and feel I would be a good fit for your upcoming work? Feeling a little low and just fancy a chat?</p>
         </br>
         <p>Use the form below, or the contact details below it, to get in touch with me whichever way works best for you.</p>
         <!-- Send a message -->
         <div class="form top_60 bottom_120 text-center">
-            <h2 class="form-title bottom_60">Send a message</h2>
+            <h2 class="form-title bottom_30">Send a message</h2>
+            <br>
+            <p>Sorry! GitHub Pages doesn't support PHP forms at this time, so please use the three contact methods below this form!</p>
             <form class="contact-form top_30" action="contact.php" method="POST">
                 <div class="row">
                     <!--Name-->
                     <div class="col-md-6">
-                        <input id="con_name" name="name" class="form-inp requie" type="text" placeholder="Name">
+                        <input id="con_name" name="name" class="form-inp requie" type="text" placeholder="Name" disabled>
                     </div>
                     <!--Email-->
                     <div class="col-md-6">
-                        <input id="con_email" name="email" class="form-inp requie" type="text" placeholder="Email">
+                        <input id="con_email" name="email" class="form-inp requie" type="text" placeholder="Email" disabled>
                     </div>
                     <div class="col-md-12">
                         <!--Message-->
-                        <textarea name="message" id="con_message" class="requie" placeholder="Your Message" rows="8"></textarea>
-                        <button id="con_submit" class="form-btn" type="submit">SUBMIT</button>
+                        <textarea name="message" id="con_message" class="requie" placeholder="Your Message" rows="8" disabled></textarea>
+                        <button id="con_submit" class="form-btn" type="submit" disabled>SUBMIT</button>
                     </div>
                 </div>
             </form>
@@ -153,9 +155,10 @@
 					<a href="#"><img src="img/icons/social/dribbble.svg" alt=""></a>
 					<a href="#"><img src="img/icons/social/send.svg" alt=""></a>
 				</div><br>
-				<p>1444 S. Alameda Street Los Angeles, California 90021</p><br>
-				<p>0216 514 25 25</p>
-				<p>contact@darkme.com</p>
+				<p class="footertext">Gianfranco Coppola</p><br>
+                <p class="footerlinkhover footertext">Current Role - Digital Project Manager at <a style="text-decoration-line: underline;" href="https://aia.co.uk" target="_blank">AIA Worldwide</a></p><br>
+				<p class="footerlinkhover footertext"><a href="tel:447714634965" target="_blank">07714 634 965</a></p>
+				<p class="footerlinkhover footertext">contact@darkme.com</p>
 			</div>
 			<div class="col-lg-3">
 				<div class="uptotop">up to top</div>
