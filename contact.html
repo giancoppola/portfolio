@@ -108,19 +108,19 @@
         <!-- Send a message -->
         <div class="form top_60 bottom_120 text-center">
             <h2 class="form-title bottom_60">Send a message</h2>
-            <form class="contact-form top_30" method="POST">
+            <form class="contact-form top_30" action="contact.php" method="POST">
                 <div class="row">
                     <!--Name-->
                     <div class="col-md-6">
-                        <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
+                        <input id="con_name" name="name" class="form-inp requie" type="text" placeholder="Name">
                     </div>
                     <!--Email-->
                     <div class="col-md-6">
-                        <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
+                        <input id="con_email" name="email" class="form-inp requie" type="text" placeholder="Email">
                     </div>
                     <div class="col-md-12">
                         <!--Message-->
-                        <textarea name="con_message" id="con_message" class="requie" placeholder="Your Message" rows="8"></textarea>
+                        <textarea name="message" id="con_message" class="requie" placeholder="Your Message" rows="8"></textarea>
                         <button id="con_submit" class="form-btn" type="submit">SUBMIT</button>
                     </div>
                 </div>
