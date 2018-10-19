@@ -814,7 +814,7 @@ header {
 }
 
 .zigzag svg {
-    stroke: #0161ee;
+    stroke: #C04759;
     stroke-width: 4.3;
 }
 
@@ -1294,7 +1294,7 @@ header {
 
 .form-btn {
     color: #fff;
-    background: #0122ee;
+    background: #C04759;
     padding: 15px 55px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -1309,7 +1309,7 @@ header {
 }
 
 .form-btn:hover {
-    background: #0321d2;
+    background: #bc4052;
     transition: all ease 0.4s;
     -webkit-transition: all ease 0.4s;
     -moz-transition: all ease 0.4s;
