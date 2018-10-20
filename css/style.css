@@ -1067,8 +1067,18 @@ header {
     font-weight: 400;
 }
 
+.about-text hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #C04759;
+    margin-top: 10px;
+}
+
 .about-text span {
     color: #C04759;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .services .service i {
