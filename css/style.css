@@ -242,18 +242,24 @@ blockquote {
 }
 
 .main-title {
-    font-size: 24px;
-    line-height: 38px;
+    font-size: 28px;
+    line-height: 48px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.titlespan span {
+    color: #C04759;
+    text-decoration: underline;
 }
 
 .main-titlep {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 38px;
     color: #fff;
     font-weight: 400; 
-    padding-top: 30px; 
+    padding-top: 15px; 
     #br {
         display: inline;
     }  
@@ -1715,7 +1721,7 @@ footer p {
     }
 
     .main {
-        background: url(../img/person-bg.jpg) no-repeat right;
+        background: /*url(img/person-bg.jpg)*/ #060C0E no-repeat;
         background-size: cover;
     }
 
