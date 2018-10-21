@@ -365,6 +365,12 @@ blockquote {
 
 /* Full Menu */
 
+.logomenu {
+    float: left;
+    top: 0;
+    left: 0;
+}
+
 .full-menu .modal-close {
     /* 'X' icon */
     position: absolute;
@@ -473,6 +479,7 @@ blockquote {
     /* our sprite is composed of 25 frames */
     width: 2500%;
     background: url(../img/ink.png) no-repeat 0 0;
+    /*background-color: #060C0E no-repeat 0 0;*/
     background-size: 100% 100%;
 }
 
@@ -688,7 +695,7 @@ blockquote {
 }
 
 .page-menu li a span {
-    background: #0161ee;
+    background: #C04759;
     position: absolute;
     top: 19px;
     left: -5px;
@@ -697,7 +704,7 @@ blockquote {
     z-index: -1;
     transform: scaleX(0);
     transform-origin: right;
-    transition: transform .2s ease-out;
+    transition: transform .3s ease-out;
 }
 
 
@@ -1518,6 +1525,7 @@ footer p {
     right: 0;
     top: 50%;
     margin: 0;
+    z-index: -1;
     transition: width .4s ease-out;
 }
 
@@ -1531,6 +1539,8 @@ footer p {
     top: 45%;
     opacity: 100%;
     margin: 0;
+    z-index: -1;
+    transform-origin: left;
     transition: width .4s ease-out;
     -webkit-transition: width .4s ease-out;
        -moz-transition: width .4s ease-out;
