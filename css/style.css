@@ -365,11 +365,11 @@ blockquote {
 
 /* Full Menu */
 
-.logomenu {
+/*.logomenu {
     float: left;
     top: 0;
     left: 0;
-}
+}*/
 
 .full-menu .modal-close {
     /* 'X' icon */
@@ -397,6 +397,37 @@ blockquote {
     transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
 }
 
+.full-menu .logomenu {
+    /* 'X' icon */
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+    -moz-transition: -moz-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+    transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+}
+
+.full-menu.visible .logomenu {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
+    -moz-transition: -moz-transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
+    transition: transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
 
 .no-touch .full-menu .modal-close:hover {
     background-color: rgba(0, 0, 0, 0.5);
@@ -1525,7 +1556,7 @@ footer p {
     right: 0;
     top: 50%;
     margin: 0;
-    z-index: -1;
+    z-index: 1;
     transition: width .4s ease-out;
 }
 
@@ -1539,7 +1570,7 @@ footer p {
     top: 45%;
     opacity: 100%;
     margin: 0;
-    z-index: -1;
+    z-index: 1;
     transform-origin: left;
     transition: width .4s ease-out;
     -webkit-transition: width .4s ease-out;
