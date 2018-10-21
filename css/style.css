@@ -202,7 +202,7 @@ blockquote {
 /*------------------------ 2 Home ------------------------*/
 
 .main {
-    background: url(../img/person-bg.jpg) no-repeat;
+    background: /*url(img/person-bg.jpg)*/ #060C0E no-repeat;
     background-size: cover;
     display: table;
     width: 100%;
@@ -248,9 +248,22 @@ blockquote {
     font-weight: 400;
 }
 
+.main-titlep {
+    font-size: 18px;
+    line-height: 38px;
+    color: #fff;
+    font-weight: 400; 
+    padding-top: 30px; 
+    #br {
+        display: inline;
+    }  
+}
+
 .hello {
-    color: #0161ee;
+    color: #4C797F;
     line-height: 51px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .main-content {
@@ -264,7 +277,7 @@ blockquote {
 .main .down-arrow {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     padding: 50px;
     cursor: pointer;
     z-index: 1;
