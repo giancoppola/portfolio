@@ -484,7 +484,7 @@ function mapInit() {
         var marker1 = new google.maps.Marker({
             position: map.getCenter(),
             title: "Retrina",
-            icon: 'http://placehold.it/60x30',
+            icon: 'https://placehold.it/60x30',
             animation: google.maps.Animation.BOUNCE
         });
         marker1.setMap(map);
