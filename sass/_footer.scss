@@ -1,0 +1,17 @@
+@import "variables";
+@import "mixin";
+/*-------------------------
+          FOOTER
+-------------------------*/
+.footer{
+    background: url("http://placehold.it/1920x1280") no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px $bg-white;
+    .socails li i{
+        font-size: $f-s-20;
+        font-weight: $f-w-400;
+        &:hover{
+            color: $base-color !important;
+        }
+    }
+}

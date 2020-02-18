@@ -1,0 +1,9 @@
+@import "variables";
+@import "mixin";
+/*-------------------------
+          HERO
+-------------------------*/
+.hero-01 {
+    background: url("http://placehold.it/1920x1280") no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px $bg-white;}
